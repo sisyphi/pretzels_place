@@ -1,17 +1,31 @@
+<script>
+	import Menu from "$lib/icons/Menu.svelte";
+
+    let isMenuOpen = false;
+
+    function toggleMenu() {
+        isMenuOpen = !isMenuOpen;
+    }
+    $: mobileMenuClasses = isMenuOpen ? "flex flex-col w-full" : "hidden"
+</script>
+
 <header class="bg-brown">
-    <div class="flex justify-between max-w-4xl mx-auto text-xl font-bold text-center align-middle font-poppins text-offwhite">
-        <div id="logo" class="flex justify-center p-8 align-middle">
-            Pretzel's Place
+    <nav class="flex flex-wrap justify-between mx-auto text-xl font-bold text-center max-w-7xl md:flex-nowrap font-poppins text-offwhite">
+        <div class="flex m-4 text-center">
+            <img src="" alt="Pretzel's Place">
         </div>
-        <div id="nav">
-            <nav>
-                <ul class="flex flex-row gap-8 p-8">
-                    <a href="/" class=""><li>Home</li></a>
-                    <a href="/about-us"><li>About Us</li></a>
-                    <a href="/our-cats"><li>Our Cats</li></a>
-                    <a href="/donation"><li class="text-orange">Help Out!</li></a>
-                </ul>
-            </nav>
+        <div class="flex m-4 md:hidden">
+            <button on:click={toggleMenu}>
+                <Menu class="size-8"></Menu>
+            </button>
         </div>
-    </div>
+        <div class="{mobileMenuClasses} md:flex md:w-auto">
+            <ul class="text-left md:gap-8 md:m-8 md:flex md:flex-row">
+                <li class="mx-4 mb-4 md:m-auto"><a on:click={() => isMenuOpen = false} href="/" class="hover:underline">Home</a></li>
+                <li class="mx-4 my-4 md:m-auto"><a on:click={() => isMenuOpen = false} href="/about-us" class="hover:underline">About Us</a></li>
+                <li class="mx-4 my-4 md:m-auto"><a on:click={() => isMenuOpen = false} href="/our-cats" class="hover:underline">Our Cats</a></li>
+                <li class="mx-4 my-4 md:m-auto text-orange"><a on:click={() => isMenuOpen = false} href="/donation" class="hover:underline">Help Out!</a></li>
+            </ul>
+        </div>
+    </nav>
 </header>
