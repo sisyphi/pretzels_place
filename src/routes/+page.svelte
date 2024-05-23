@@ -54,7 +54,7 @@
 			<div class="grid gap-4 bg-brown p-8 xs:col-start-1 xs:col-end-5 xs:row-start-1 xs:row-end-1">
 				<div class="grid xs:grid-rows-3">
 					<div class="place-content-center bg-orange xs:col-start-1 xs:col-end-1 xs:row-start-1 xs:row-end-2">
-						<p class="text-center font-poppins text-5xl font-bold text-offwhite md:text-6xl">Mission</p>
+						<p class="text-center font-poppins text-4xl font-bold text-offwhite md:text-5xl">Mission</p>
 					</div>
 					<div class="py-4 xs:col-start-1 xs:col-end-1 xs:row-start-2 xs:row-end-4">
 						<p class="text-left font-poppins text-2xl font-bold text-offwhite md:text-4xl">Creating safe spaces for cats, so we can guarantee their safety</p>
@@ -64,11 +64,44 @@
 			<div class="grid gap-4 bg-brown p-8 xs:col-start-6 xs:col-end-10 xs:row-start-1 xs:row-end-1">
 				<div class="xs:grid xs:grid-rows-3">
 					<div class="place-content-center bg-orange xs:col-start-1 xs:col-end-1 xs:row-start-1 xs:row-end-2">
-						<p class="text-center font-poppins text-5xl font-bold text-offwhite md:text-6xl">Vision</p>
+						<p class="text-center font-poppins text-4xl font-bold text-offwhite md:text-5xl">Vision</p>
 					</div>
 					<div class="py-4 xs:col-start-1 xs:col-end-1 xs:row-start-2 xs:row-end-4">
 						<p class="text-left font-poppins text-2xl font-bold text-offwhite md:text-4xl">Testing some random short copy to see if they will fit</p>
 					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="about-us" class="pb-8">
+		<div class="xs:grid xs:grid-cols-6">
+			<div class="bg-orange p-8 xs:col-start-1 xs:col-end-6 xs:row-start-1 xs:row-end-1">
+				<p class="mx-auto max-w-xs text-center font-poppins text-4xl font-bold text-offwhite xs:max-w-full xs:xs:text-right md:text-5xl"><span><a href="/about-us" class="underline">Learn more ABOUT US ></a></span></p>
+			</div>
+		</div>
+	</section>
+
+	<section id="help-us-out" class="">
+		<div class="py-8 xs:grid xs:grid-cols-6">
+			<div class="bg-brown p-8 xs:col-start-2 xs:col-end-7 xs:row-start-1 xs:row-end-1">
+				<p class="text-left font-poppins text-4xl font-bold text-offwhite md:text-5xl">How can I help?</p>
+			</div>
+		</div>
+
+		<div class="py-8 xs:grid xs:grid-cols-6">
+			<div class="flex flex-col gap-4 bg-orange p-8 xs:col-start-1 xs:col-end-6 xs:row-start-1 xs:row-end-1 xs:gap-8">
+				<div>
+					<p class="text-left font-poppins text-2xl font-bold text-offwhite xs:text-right md:text-4xl">You can <span><a href="/about-us" class="underline">ADOPT ></a></span></p>
+				</div>
+				<div>
+					<p class="text-left font-poppins text-2xl font-bold text-offwhite xs:text-right md:text-4xl">But if you can't, <span><a href="/about-us" class="underline">FOSTER ></a></span></p>
+				</div>
+				<div>
+					<p class="text-left font-poppins text-2xl font-bold text-offwhite xs:text-right md:text-4xl">But if you can't, <span><a href="/about-us" class="underline">DONATE ></a></span></p>
+				</div>
+				<div>
+					<p class="text-left font-poppins text-2xl font-bold text-offwhite xs:text-right md:text-4xl">But if you can't, <span><a href="/about-us" class="underline">EDUCATE ></a></span></p>
 				</div>
 			</div>
 		</div>
