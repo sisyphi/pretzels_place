@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
@@ -14,11 +15,7 @@ export default {
     },
     screens: {
       'xs': '525px',
-      'sm': '640px',
-      'md': '768px',
-      'lg': '1024px',
-      'xl': '1280px',
-      '2xl': '1536px',
+      ...defaultTheme.screens,
     },
     extend: {},
   },
