@@ -36,6 +36,9 @@
 				<li class="mx-4 my-4 text-orange md:m-auto">
 					<a on:click={() => (isMenuOpen = false)} href="/adoption-fostering" class="hover:underline">Adopt & Foster</a>
 				</li>
+				<li class="mx-4 my-4 text-orange md:m-auto">
+					<a on:click={() => (isMenuOpen = false)} href="/faq" class="hover:underline">Educate</a>
+				</li>
 			</ul>
 		</div>
 	</nav>
