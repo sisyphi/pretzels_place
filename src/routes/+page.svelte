@@ -1,4 +1,4 @@
-<section class="bg-offwhite">
+<section class="">
 	<section id="hero" class="p-8 md:mx-auto md:grid md:max-w-4xl md:grid-cols-5 md:grid-rows-1 md:py-16">
 		<div class="relative z-10 content-center md:col-start-1 md:col-end-4 md:row-start-1 md:row-end-1 md:max-w-lg md:py-8">
 			<h1 class="font-poppins text-3xl font-bold text-brown sm:text-5xl md:text-6xl">Your favorite NGO that helps out cats and people who help cats out</h1>

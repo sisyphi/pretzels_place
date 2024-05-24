@@ -31,7 +31,10 @@
 					<a on:click={() => (isMenuOpen = false)} href="/our-cats" class="hover:underline">Our Cats</a>
 				</li>
 				<li class="mx-4 my-4 text-orange md:m-auto">
-					<a on:click={() => (isMenuOpen = false)} href="/donation" class="hover:underline">Help Out!</a>
+					<a on:click={() => (isMenuOpen = false)} href="/donation" class="hover:underline">Donate</a>
+				</li>
+				<li class="mx-4 my-4 text-orange md:m-auto">
+					<a on:click={() => (isMenuOpen = false)} href="/adoption-fostering" class="hover:underline">Adopt & Foster</a>
 				</li>
 			</ul>
 		</div>
