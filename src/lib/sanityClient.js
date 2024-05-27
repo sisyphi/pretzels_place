@@ -1,8 +1,7 @@
-import { createClient } from '@sanity/client';
-import { SANITY_PROJECT_ID } from '$env/static/private'
+import {createClient} from '@sanity/client';
 
 const client = createClient({
-    projectId: SANITY_PROJECT_ID,
+    projectId: 'ps0oomxl',
     dataset: 'production',
     apiVersion: '2024-03-11',
     useCdn: true,
