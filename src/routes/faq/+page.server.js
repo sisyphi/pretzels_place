@@ -6,7 +6,7 @@ import client from '$lib/sanityClient';
 let data;
 
 async function fetchFAQItems() {
-    const faq_items = await client.fetch(`*[_type == "faq_items"] {questions, answers}`);
+    const faq_items = await client.fetch(`*[_type == "faq_items"] {question, answer}`);
 
     if(faq_items) {
         data = { faq_items };

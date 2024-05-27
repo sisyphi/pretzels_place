@@ -14,11 +14,11 @@
 				<Accordion.Item value="${i}" class="border-b-2 border-brown py-4">
 					<Accordion.Header>
 						<Accordion.Trigger class="flex w-full justify-between [&[data-state=open]>svg]:rotate-180">
-							<p class="text-left font-poppins text-2xl font-bold text-brown">{item.title}</p>
+							<p class="text-left font-poppins text-2xl font-bold text-brown">{item.question}</p>
 							<CaretDown class="size-12 text-brown xs:size-8 " />
 						</Accordion.Trigger>
 					</Accordion.Header>
-					<Accordion.Content class="pt-4 font-generalsans font-medium text-brown">{item.content}</Accordion.Content>
+					<Accordion.Content class="pt-4 font-generalsans font-medium text-brown">{item.answer}</Accordion.Content>
 				</Accordion.Item>
 			{/each}
 		</Accordion.Root>
