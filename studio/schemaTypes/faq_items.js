@@ -1,8 +1,8 @@
 import {defineType, defineField} from 'sanity'
 
-export const faq_item = defineType({
+export const faq_items = defineType({
   type: 'document',
-  name: 'faq_items',
+  name: 'FAQ_items',
   fields: [
     defineField({
       type: 'string',

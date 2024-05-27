@@ -1,6 +1,6 @@
 import {defineType, defineField} from 'sanity'
 
-export const cat = defineType({
+export const cats = defineType({
   type: 'document',
   name: 'cats',
   fields: [
