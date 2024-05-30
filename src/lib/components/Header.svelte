@@ -10,7 +10,7 @@
 </script>
 
 <header class="bg-brown">
-	<nav class="font-poppins text-offwhite mx-auto flex max-w-7xl flex-wrap justify-between text-center text-xl font-bold md:flex-nowrap">
+	<nav class="mx-auto flex max-w-7xl flex-wrap justify-between text-center font-poppins text-xl font-bold text-offwhite md:flex-nowrap">
 		<div class="m-4 flex text-center">
 			<img src="" alt="Pretzel's Place" />
 		</div>
@@ -30,13 +30,13 @@
 				<li class="mx-4 my-4 md:m-auto">
 					<a on:click={() => (isMenuOpen = false)} href="/our-cats" class="hover:underline">Our Cats</a>
 				</li>
-				<li class="text-orange mx-4 my-4 md:m-auto">
+				<li class="mx-4 my-4 text-orange md:m-auto">
 					<a on:click={() => (isMenuOpen = false)} href="/donation" class="hover:underline">Donate</a>
 				</li>
-				<li class="text-orange mx-4 my-4 md:m-auto">
+				<li class="mx-4 my-4 text-orange md:m-auto">
 					<a on:click={() => (isMenuOpen = false)} href="/adoption-fostering" class="hover:underline">Adopt & Foster</a>
 				</li>
-				<li class="text-orange mx-4 my-4 md:m-auto">
+				<li class="mx-4 my-4 text-orange md:m-auto">
 					<a on:click={() => (isMenuOpen = false)} href="/faq" class="hover:underline">Educate</a>
 				</li>
 			</ul>
