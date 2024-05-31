@@ -19,7 +19,6 @@
 									Account Name: <span class="font-bold">Jinggay Dinsay</span>
 								</p>
 							</div>
-							<!-- <p class="text-2xl font-bold text-left font-poppins text-offwhite md:text-4xl">Creating safe spaces for cats, so we can guarantee their safety</p> -->
 						</div>
 					</div>
 				</div>
