@@ -28,7 +28,7 @@
 			{#each cats as cat}
 				<div class="relative max-w-xs flex-grow basis-48">
 					<img class="h-full w-full rounded-2xl object-cover object-center" src={cat.picture} alt="" />
-					<p class="text-white absolute bottom-0 left-0 m-0 box-border w-full p-8 font-poppins text-4xl font-bold">{cat.name}</p>
+					<p class="absolute bottom-0 left-0 m-0 box-border w-full p-8 font-poppins text-4xl font-bold text-white">{cat.name}</p>
 				</div>
 			{/each}
 		</div>
