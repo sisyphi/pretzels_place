@@ -4,7 +4,7 @@
 </script>
 
 <footer>
-	<div class="relative z-10 flex flex-col justify-center px-8 pb-4 bg-brown xs:flex-row xs:justify-between xs:px-8 lg:px-20 xl:px-48">
+	<div class="relative z-10 flex flex-col justify-center px-8 pb-4 mt-16 bg-brown xs:flex-row xs:justify-between xs:px-8 lg:px-20 xl:px-48">
 		<div class="my-4 font-poppins text-offwhite">
 			<div class="flex justify-center pb-4 xs:justify-normal">
 				<a href="/">
