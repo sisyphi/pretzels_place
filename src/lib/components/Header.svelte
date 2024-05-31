@@ -10,11 +10,13 @@
 </script>
 
 <header class="bg-brown">
-	<nav class="mx-auto flex max-w-7xl flex-wrap justify-between text-center font-poppins text-xl font-bold text-offwhite md:flex-nowrap">
-		<div class="m-4 flex text-center">
-			<img src="" alt="Pretzel's Place" />
+	<nav class="flex flex-wrap justify-between mx-auto text-xl font-bold text-center max-w-7xl font-poppins text-offwhite md:flex-nowrap">
+		<div class="flex m-4 text-center">
+			<a href="/">
+				<img src="" alt="Pretzel's Place" />
+			</a>
 		</div>
-		<div class="m-4 flex md:hidden">
+		<div class="flex m-4 md:hidden">
 			<button on:click={toggleMenu}>
 				<Menu class="size-8"></Menu>
 			</button>
